@@ -1,0 +1,15 @@
+/usr/include/aom/aom.h
+/usr/include/aom/aom_codec.h
+/usr/include/aom/aom_frame_buffer.h
+/usr/include/aom/aom_image.h
+/usr/include/aom/aom_integer.h
+/usr/include/aom/aom.h
+/usr/include/aom/aom_decoder.h
+/usr/include/aom/aomdx.h
+/usr/include/aom/aomcx.h
+/usr/include/aom/aom_encoder.h
+/usr/lib/x86_64-linux-gnu/pkgconfig/aom.pc
+/usr/lib/x86_64-linux-gnu/libaom.so.0
+/usr/lib/x86_64-linux-gnu/libaom.so
+/usr/bin/aomdec
+/usr/bin/aomenc

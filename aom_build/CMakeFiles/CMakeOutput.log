@@ -1,0 +1,1405 @@
+The system is: Linux - 4.15.0-29-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/aom/aom_build/CMakeFiles/3.13.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/aom/aom_build/CMakeFiles/3.13.1/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/aom/aom_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_175a4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_175a4.dir/build.make CMakeFiles/cmTC_175a4.dir/build
+make[1]: Entering directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_175a4.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_175a4.dir/testCCompiler.c.o   -c /home/aom/aom_build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_175a4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_175a4.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_175a4.dir/testCCompiler.c.o  -o cmTC_175a4 
+make[1]: Leaving directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/aom/aom_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_eecfa/fast"
+/usr/bin/make -f CMakeFiles/cmTC_eecfa.dir/build.make CMakeFiles/cmTC_eecfa.dir/build
+make[1]: Entering directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_eecfa.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_eecfa.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.13/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_eecfa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eecfa.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTC_eecfa.dir/CMakeCCompilerABI.c.o  -o cmTC_eecfa 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.11' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.11) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_eecfa' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccgIwrhw.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_eecfa /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_eecfa.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/aom/aom_build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_eecfa/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_eecfa.dir/build.make CMakeFiles/cmTC_eecfa.dir/build]
+  ignore line: [make[1]: Entering directory '/home/aom/aom_build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_eecfa.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_eecfa.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.13/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_eecfa]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eecfa.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_eecfa.dir/CMakeCCompilerABI.c.o  -o cmTC_eecfa ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.11' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.11) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_eecfa' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccgIwrhw.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_eecfa /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_eecfa.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccgIwrhw.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_eecfa] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
+    arg [CMakeFiles/cmTC_eecfa.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5] ==> [/usr/lib/gcc/x86_64-linux-gnu/5]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/5;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/aom/aom_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_91f03/fast"
+/usr/bin/make -f CMakeFiles/cmTC_91f03.dir/build.make CMakeFiles/cmTC_91f03.dir/build
+make[1]: Entering directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_91f03.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_91f03.dir/feature_tests.c.o   -c /home/aom/aom_build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_91f03
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_91f03.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_91f03.dir/feature_tests.c.o  -o cmTC_91f03 
+make[1]: Leaving directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/aom/aom_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ca1c5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ca1c5.dir/build.make CMakeFiles/cmTC_ca1c5.dir/build
+make[1]: Entering directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ca1c5.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_ca1c5.dir/feature_tests.c.o   -c /home/aom/aom_build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_ca1c5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca1c5.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_ca1c5.dir/feature_tests.c.o  -o cmTC_ca1c5 
+make[1]: Leaving directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/aom/aom_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5cd4a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5cd4a.dir/build.make CMakeFiles/cmTC_5cd4a.dir/build
+make[1]: Entering directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5cd4a.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_5cd4a.dir/feature_tests.c.o   -c /home/aom/aom_build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_5cd4a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5cd4a.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_5cd4a.dir/feature_tests.c.o  -o cmTC_5cd4a 
+make[1]: Leaving directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/aom/aom_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6ef9a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6ef9a.dir/build.make CMakeFiles/cmTC_6ef9a.dir/build
+make[1]: Entering directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6ef9a.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_6ef9a.dir/testCXXCompiler.cxx.o -c /home/aom/aom_build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_6ef9a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6ef9a.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_6ef9a.dir/testCXXCompiler.cxx.o  -o cmTC_6ef9a 
+make[1]: Leaving directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/aom/aom_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_66010/fast"
+/usr/bin/make -f CMakeFiles/cmTC_66010.dir/build.make CMakeFiles/cmTC_66010.dir/build
+make[1]: Entering directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_66010.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_66010.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_66010
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_66010.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTC_66010.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_66010 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.11' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.11) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_66010' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cc4VXlK8.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_66010 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_66010.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/aom/aom_build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_66010/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_66010.dir/build.make CMakeFiles/cmTC_66010.dir/build]
+  ignore line: [make[1]: Entering directory '/home/aom/aom_build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_66010.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_66010.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_66010]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_66010.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_66010.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_66010 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.11' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.11) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_66010' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cc4VXlK8.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_66010 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_66010.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc4VXlK8.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_66010] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
+    arg [CMakeFiles/cmTC_66010.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5] ==> [/usr/lib/gcc/x86_64-linux-gnu/5]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/5;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++1z] compiler features compiled with the following output:
+Change Dir: /home/aom/aom_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b2b98/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b2b98.dir/build.make CMakeFiles/cmTC_b2b98.dir/build
+make[1]: Entering directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b2b98.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_b2b98.dir/feature_tests.cxx.o -c /home/aom/aom_build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_b2b98
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b2b98.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_b2b98.dir/feature_tests.cxx.o  -o cmTC_b2b98 
+make[1]: Leaving directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /home/aom/aom_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7dd3f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7dd3f.dir/build.make CMakeFiles/cmTC_7dd3f.dir/build
+make[1]: Entering directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7dd3f.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_7dd3f.dir/feature_tests.cxx.o -c /home/aom/aom_build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_7dd3f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7dd3f.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_7dd3f.dir/feature_tests.cxx.o  -o cmTC_7dd3f 
+make[1]: Leaving directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/aom/aom_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b3ae2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b3ae2.dir/build.make CMakeFiles/cmTC_b3ae2.dir/build
+make[1]: Entering directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b3ae2.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_b3ae2.dir/feature_tests.cxx.o -c /home/aom/aom_build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_b3ae2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3ae2.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_b3ae2.dir/feature_tests.cxx.o  -o cmTC_b3ae2 
+make[1]: Leaving directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/aom/aom_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3e286/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3e286.dir/build.make CMakeFiles/cmTC_3e286.dir/build
+make[1]: Entering directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3e286.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_3e286.dir/feature_tests.cxx.o -c /home/aom/aom_build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_3e286
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3e286.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_3e286.dir/feature_tests.cxx.o  -o cmTC_3e286 
+make[1]: Leaving directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/aom/aom_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6619e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6619e.dir/build.make CMakeFiles/cmTC_6619e.dir/build
+make[1]: Entering directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6619e.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_6619e.dir/CheckIncludeFile.c.o   -c /home/aom/aom_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_6619e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6619e.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_6619e.dir/CheckIncludeFile.c.o  -o cmTC_6619e 
+make[1]: Leaving directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/aom/aom_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_45a6d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_45a6d.dir/build.make CMakeFiles/cmTC_45a6d.dir/build
+make[1]: Entering directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_45a6d.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_45a6d.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_45a6d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_45a6d.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_45a6d.dir/CheckFunctionExists.c.o  -o cmTC_45a6d -lpthread 
+make[1]: Leaving directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test C_TEST_COMPILED succeeded with the following output:
+Change Dir: /home/aom/aom_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b3352/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b3352.dir/build.make CMakeFiles/cmTC_b3352.dir/build
+make[1]: Entering directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b3352.dir/src.c.o
+/usr/bin/cc   -DC_TEST_COMPILED -fPIE   -o CMakeFiles/cmTC_b3352.dir/src.c.o   -c /home/aom/aom_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_b3352
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3352.dir/link.txt --verbose=1
+/usr/bin/cc  -DC_TEST_COMPILED    CMakeFiles/cmTC_b3352.dir/src.c.o  -o cmTC_b3352 
+make[1]: Leaving directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+static inline void function(void) {} 
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_TEST_COMPILED succeeded with the following output:
+Change Dir: /home/aom/aom_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f2454/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f2454.dir/build.make CMakeFiles/cmTC_f2454.dir/build
+make[1]: Entering directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f2454.dir/src.cxx.o
+/usr/bin/c++    -DCXX_TEST_COMPILED -fPIE   -o CMakeFiles/cmTC_f2454.dir/src.cxx.o -c /home/aom/aom_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_f2454
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2454.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_TEST_COMPILED    CMakeFiles/cmTC_f2454.dir/src.cxx.o  -o cmTC_f2454 
+make[1]: Leaving directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+static inline void function(void) {} 
+int main() { return 0; }
+Performing C SOURCE FILE Test C_TEST_COMPILED succeeded with the following output:
+Change Dir: /home/aom/aom_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_19a7b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_19a7b.dir/build.make CMakeFiles/cmTC_19a7b.dir/build
+make[1]: Entering directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_19a7b.dir/src.c.o
+/usr/bin/cc   -DC_TEST_COMPILED -fPIE   -o CMakeFiles/cmTC_19a7b.dir/src.c.o   -c /home/aom/aom_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_19a7b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19a7b.dir/link.txt --verbose=1
+/usr/bin/cc  -DC_TEST_COMPILED    CMakeFiles/cmTC_19a7b.dir/src.c.o  -o cmTC_19a7b 
+make[1]: Leaving directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <unistd.h> 
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_TEST_COMPILED succeeded with the following output:
+Change Dir: /home/aom/aom_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ff3e1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ff3e1.dir/build.make CMakeFiles/cmTC_ff3e1.dir/build
+make[1]: Entering directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ff3e1.dir/src.cxx.o
+/usr/bin/c++    -DCXX_TEST_COMPILED -fPIE   -o CMakeFiles/cmTC_ff3e1.dir/src.cxx.o -c /home/aom/aom_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_ff3e1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ff3e1.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_TEST_COMPILED    CMakeFiles/cmTC_ff3e1.dir/src.cxx.o  -o cmTC_ff3e1 
+make[1]: Leaving directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <unistd.h> 
+int main() { return 0; }
+Performing C SOURCE FILE Test C_TEST_COMPILED succeeded with the following output:
+Change Dir: /home/aom/aom_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_60b1b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_60b1b.dir/build.make CMakeFiles/cmTC_60b1b.dir/build
+make[1]: Entering directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_60b1b.dir/src.c.o
+/usr/bin/cc   -DC_TEST_COMPILED -fPIE   -o CMakeFiles/cmTC_60b1b.dir/src.c.o   -c /home/aom/aom_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_60b1b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_60b1b.dir/link.txt --verbose=1
+/usr/bin/cc  -DC_TEST_COMPILED    CMakeFiles/cmTC_60b1b.dir/src.c.o  -o cmTC_60b1b -lm 
+make[1]: Leaving directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#define _GNU_SOURCE
+                        #include <fenv.h>
+                        void unused(void) {
+                          (void)unused;
+                          (void)feenableexcept(FE_DIVBYZERO | FE_INVALID);
+                        } 
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_C_FLAG succeeded with the following output:
+Change Dir: /home/aom/aom_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5f5af/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5f5af.dir/build.make CMakeFiles/cmTC_5f5af.dir/build
+make[1]: Entering directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5f5af.dir/src.c.o
+/usr/bin/cc   -DHAVE_C_FLAG -fPIE   -std=c99 -o CMakeFiles/cmTC_5f5af.dir/src.c.o   -c /home/aom/aom_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_5f5af
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f5af.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_C_FLAG    CMakeFiles/cmTC_5f5af.dir/src.c.o  -o cmTC_5f5af -lm 
+make[1]: Leaving directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /home/aom/aom_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d8381/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d8381.dir/build.make CMakeFiles/cmTC_d8381.dir/build
+make[1]: Entering directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d8381.dir/src.c.o
+/usr/bin/cc   -DC_FLAG_SUPPORTED -fPIE   -Wall -o CMakeFiles/cmTC_d8381.dir/src.c.o   -c /home/aom/aom_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_d8381
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d8381.dir/link.txt --verbose=1
+/usr/bin/cc  -DC_FLAG_SUPPORTED    CMakeFiles/cmTC_d8381.dir/src.c.o  -o cmTC_d8381 -lm 
+make[1]: Leaving directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /home/aom/aom_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d75be/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d75be.dir/build.make CMakeFiles/cmTC_d75be.dir/build
+make[1]: Entering directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d75be.dir/src.cxx.o
+/usr/bin/c++    -DCXX_FLAG_SUPPORTED -fPIE   -Wall -o CMakeFiles/cmTC_d75be.dir/src.cxx.o -c /home/aom/aom_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_d75be
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d75be.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_FLAG_SUPPORTED    CMakeFiles/cmTC_d75be.dir/src.cxx.o  -o cmTC_d75be -lm 
+make[1]: Leaving directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /home/aom/aom_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8c227/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8c227.dir/build.make CMakeFiles/cmTC_8c227.dir/build
+make[1]: Entering directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8c227.dir/src.c.o
+/usr/bin/cc   -DC_FLAG_SUPPORTED -fPIE   -Wdisabled-optimization -o CMakeFiles/cmTC_8c227.dir/src.c.o   -c /home/aom/aom_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_8c227
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8c227.dir/link.txt --verbose=1
+/usr/bin/cc  -DC_FLAG_SUPPORTED    CMakeFiles/cmTC_8c227.dir/src.c.o  -o cmTC_8c227 -lm 
+make[1]: Leaving directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /home/aom/aom_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a7521/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a7521.dir/build.make CMakeFiles/cmTC_a7521.dir/build
+make[1]: Entering directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a7521.dir/src.cxx.o
+/usr/bin/c++    -DCXX_FLAG_SUPPORTED -fPIE   -Wdisabled-optimization -o CMakeFiles/cmTC_a7521.dir/src.cxx.o -c /home/aom/aom_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_a7521
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a7521.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_FLAG_SUPPORTED    CMakeFiles/cmTC_a7521.dir/src.cxx.o  -o cmTC_a7521 -lm 
+make[1]: Leaving directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /home/aom/aom_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_05c00/fast"
+/usr/bin/make -f CMakeFiles/cmTC_05c00.dir/build.make CMakeFiles/cmTC_05c00.dir/build
+make[1]: Entering directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_05c00.dir/src.c.o
+/usr/bin/cc   -DC_FLAG_SUPPORTED -fPIE   -Wextra -o CMakeFiles/cmTC_05c00.dir/src.c.o   -c /home/aom/aom_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_05c00
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_05c00.dir/link.txt --verbose=1
+/usr/bin/cc  -DC_FLAG_SUPPORTED    CMakeFiles/cmTC_05c00.dir/src.c.o  -o cmTC_05c00 -lm 
+make[1]: Leaving directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /home/aom/aom_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5d6fd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5d6fd.dir/build.make CMakeFiles/cmTC_5d6fd.dir/build
+make[1]: Entering directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5d6fd.dir/src.cxx.o
+/usr/bin/c++    -DCXX_FLAG_SUPPORTED -fPIE   -Wextra -o CMakeFiles/cmTC_5d6fd.dir/src.cxx.o -c /home/aom/aom_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_5d6fd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d6fd.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_FLAG_SUPPORTED    CMakeFiles/cmTC_5d6fd.dir/src.cxx.o  -o cmTC_5d6fd -lm 
+make[1]: Leaving directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /home/aom/aom_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f27c8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f27c8.dir/build.make CMakeFiles/cmTC_f27c8.dir/build
+make[1]: Entering directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f27c8.dir/src.c.o
+/usr/bin/cc   -DC_FLAG_SUPPORTED -fPIE   -Wfloat-conversion -o CMakeFiles/cmTC_f27c8.dir/src.c.o   -c /home/aom/aom_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_f27c8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f27c8.dir/link.txt --verbose=1
+/usr/bin/cc  -DC_FLAG_SUPPORTED    CMakeFiles/cmTC_f27c8.dir/src.c.o  -o cmTC_f27c8 -lm 
+make[1]: Leaving directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /home/aom/aom_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_30956/fast"
+/usr/bin/make -f CMakeFiles/cmTC_30956.dir/build.make CMakeFiles/cmTC_30956.dir/build
+make[1]: Entering directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_30956.dir/src.cxx.o
+/usr/bin/c++    -DCXX_FLAG_SUPPORTED -fPIE   -Wfloat-conversion -o CMakeFiles/cmTC_30956.dir/src.cxx.o -c /home/aom/aom_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_30956
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_30956.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_FLAG_SUPPORTED    CMakeFiles/cmTC_30956.dir/src.cxx.o  -o cmTC_30956 -lm 
+make[1]: Leaving directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /home/aom/aom_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_39c6b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_39c6b.dir/build.make CMakeFiles/cmTC_39c6b.dir/build
+make[1]: Entering directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_39c6b.dir/src.c.o
+/usr/bin/cc   -DC_FLAG_SUPPORTED -fPIE   -Wimplicit-function-declaration -o CMakeFiles/cmTC_39c6b.dir/src.c.o   -c /home/aom/aom_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_39c6b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_39c6b.dir/link.txt --verbose=1
+/usr/bin/cc  -DC_FLAG_SUPPORTED    CMakeFiles/cmTC_39c6b.dir/src.c.o  -o cmTC_39c6b -lm 
+make[1]: Leaving directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /home/aom/aom_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_56d49/fast"
+/usr/bin/make -f CMakeFiles/cmTC_56d49.dir/build.make CMakeFiles/cmTC_56d49.dir/build
+make[1]: Entering directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_56d49.dir/src.c.o
+/usr/bin/cc   -DC_FLAG_SUPPORTED -fPIE   -Wlogical-op -o CMakeFiles/cmTC_56d49.dir/src.c.o   -c /home/aom/aom_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_56d49
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56d49.dir/link.txt --verbose=1
+/usr/bin/cc  -DC_FLAG_SUPPORTED    CMakeFiles/cmTC_56d49.dir/src.c.o  -o cmTC_56d49 -lm 
+make[1]: Leaving directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /home/aom/aom_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_83461/fast"
+/usr/bin/make -f CMakeFiles/cmTC_83461.dir/build.make CMakeFiles/cmTC_83461.dir/build
+make[1]: Entering directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_83461.dir/src.cxx.o
+/usr/bin/c++    -DCXX_FLAG_SUPPORTED -fPIE   -Wlogical-op -o CMakeFiles/cmTC_83461.dir/src.cxx.o -c /home/aom/aom_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_83461
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83461.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_FLAG_SUPPORTED    CMakeFiles/cmTC_83461.dir/src.cxx.o  -o cmTC_83461 -lm 
+make[1]: Leaving directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /home/aom/aom_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bcd9c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bcd9c.dir/build.make CMakeFiles/cmTC_bcd9c.dir/build
+make[1]: Entering directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bcd9c.dir/src.c.o
+/usr/bin/cc   -DC_FLAG_SUPPORTED -fPIE   -Wpointer-arith -o CMakeFiles/cmTC_bcd9c.dir/src.c.o   -c /home/aom/aom_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_bcd9c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bcd9c.dir/link.txt --verbose=1
+/usr/bin/cc  -DC_FLAG_SUPPORTED    CMakeFiles/cmTC_bcd9c.dir/src.c.o  -o cmTC_bcd9c -lm 
+make[1]: Leaving directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /home/aom/aom_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4b826/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4b826.dir/build.make CMakeFiles/cmTC_4b826.dir/build
+make[1]: Entering directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4b826.dir/src.cxx.o
+/usr/bin/c++    -DCXX_FLAG_SUPPORTED -fPIE   -Wpointer-arith -o CMakeFiles/cmTC_4b826.dir/src.cxx.o -c /home/aom/aom_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_4b826
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4b826.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_FLAG_SUPPORTED    CMakeFiles/cmTC_4b826.dir/src.cxx.o  -o cmTC_4b826 -lm 
+make[1]: Leaving directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /home/aom/aom_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_83b2e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_83b2e.dir/build.make CMakeFiles/cmTC_83b2e.dir/build
+make[1]: Entering directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_83b2e.dir/src.c.o
+/usr/bin/cc   -DC_FLAG_SUPPORTED -fPIE   -Wsign-compare -o CMakeFiles/cmTC_83b2e.dir/src.c.o   -c /home/aom/aom_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_83b2e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83b2e.dir/link.txt --verbose=1
+/usr/bin/cc  -DC_FLAG_SUPPORTED    CMakeFiles/cmTC_83b2e.dir/src.c.o  -o cmTC_83b2e -lm 
+make[1]: Leaving directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /home/aom/aom_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6c8bf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6c8bf.dir/build.make CMakeFiles/cmTC_6c8bf.dir/build
+make[1]: Entering directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6c8bf.dir/src.cxx.o
+/usr/bin/c++    -DCXX_FLAG_SUPPORTED -fPIE   -Wsign-compare -o CMakeFiles/cmTC_6c8bf.dir/src.cxx.o -c /home/aom/aom_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_6c8bf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6c8bf.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_FLAG_SUPPORTED    CMakeFiles/cmTC_6c8bf.dir/src.cxx.o  -o cmTC_6c8bf -lm 
+make[1]: Leaving directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /home/aom/aom_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1c34a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1c34a.dir/build.make CMakeFiles/cmTC_1c34a.dir/build
+make[1]: Entering directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1c34a.dir/src.c.o
+/usr/bin/cc   -DC_FLAG_SUPPORTED -fPIE   -Wtype-limits -o CMakeFiles/cmTC_1c34a.dir/src.c.o   -c /home/aom/aom_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_1c34a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1c34a.dir/link.txt --verbose=1
+/usr/bin/cc  -DC_FLAG_SUPPORTED    CMakeFiles/cmTC_1c34a.dir/src.c.o  -o cmTC_1c34a -lm 
+make[1]: Leaving directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /home/aom/aom_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3ebb9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3ebb9.dir/build.make CMakeFiles/cmTC_3ebb9.dir/build
+make[1]: Entering directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3ebb9.dir/src.cxx.o
+/usr/bin/c++    -DCXX_FLAG_SUPPORTED -fPIE   -Wtype-limits -o CMakeFiles/cmTC_3ebb9.dir/src.cxx.o -c /home/aom/aom_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_3ebb9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ebb9.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_FLAG_SUPPORTED    CMakeFiles/cmTC_3ebb9.dir/src.cxx.o  -o cmTC_3ebb9 -lm 
+make[1]: Leaving directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /home/aom/aom_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5c080/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5c080.dir/build.make CMakeFiles/cmTC_5c080.dir/build
+make[1]: Entering directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5c080.dir/src.c.o
+/usr/bin/cc   -DC_FLAG_SUPPORTED -fPIE   -Wuninitialized -o CMakeFiles/cmTC_5c080.dir/src.c.o   -c /home/aom/aom_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_5c080
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c080.dir/link.txt --verbose=1
+/usr/bin/cc  -DC_FLAG_SUPPORTED    CMakeFiles/cmTC_5c080.dir/src.c.o  -o cmTC_5c080 -lm 
+make[1]: Leaving directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /home/aom/aom_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_76661/fast"
+/usr/bin/make -f CMakeFiles/cmTC_76661.dir/build.make CMakeFiles/cmTC_76661.dir/build
+make[1]: Entering directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_76661.dir/src.cxx.o
+/usr/bin/c++    -DCXX_FLAG_SUPPORTED -fPIE   -Wuninitialized -o CMakeFiles/cmTC_76661.dir/src.cxx.o -c /home/aom/aom_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_76661
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_76661.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_FLAG_SUPPORTED    CMakeFiles/cmTC_76661.dir/src.cxx.o  -o cmTC_76661 -lm 
+make[1]: Leaving directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /home/aom/aom_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5f3fb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5f3fb.dir/build.make CMakeFiles/cmTC_5f3fb.dir/build
+make[1]: Entering directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5f3fb.dir/src.c.o
+/usr/bin/cc   -DC_FLAG_SUPPORTED -fPIE   -Wunused -o CMakeFiles/cmTC_5f3fb.dir/src.c.o   -c /home/aom/aom_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_5f3fb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f3fb.dir/link.txt --verbose=1
+/usr/bin/cc  -DC_FLAG_SUPPORTED    CMakeFiles/cmTC_5f3fb.dir/src.c.o  -o cmTC_5f3fb -lm 
+make[1]: Leaving directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /home/aom/aom_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_be116/fast"
+/usr/bin/make -f CMakeFiles/cmTC_be116.dir/build.make CMakeFiles/cmTC_be116.dir/build
+make[1]: Entering directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_be116.dir/src.cxx.o
+/usr/bin/c++    -DCXX_FLAG_SUPPORTED -fPIE   -Wunused -o CMakeFiles/cmTC_be116.dir/src.cxx.o -c /home/aom/aom_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_be116
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_be116.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_FLAG_SUPPORTED    CMakeFiles/cmTC_be116.dir/src.cxx.o  -o cmTC_be116 -lm 
+make[1]: Leaving directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /home/aom/aom_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8c013/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8c013.dir/build.make CMakeFiles/cmTC_8c013.dir/build
+make[1]: Entering directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8c013.dir/src.c.o
+/usr/bin/cc   -DC_FLAG_SUPPORTED -fPIE   -Wvla -o CMakeFiles/cmTC_8c013.dir/src.c.o   -c /home/aom/aom_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_8c013
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8c013.dir/link.txt --verbose=1
+/usr/bin/cc  -DC_FLAG_SUPPORTED    CMakeFiles/cmTC_8c013.dir/src.c.o  -o cmTC_8c013 -lm 
+make[1]: Leaving directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /home/aom/aom_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_89d0a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_89d0a.dir/build.make CMakeFiles/cmTC_89d0a.dir/build
+make[1]: Entering directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_89d0a.dir/src.cxx.o
+/usr/bin/c++    -DCXX_FLAG_SUPPORTED -fPIE   -Wvla -o CMakeFiles/cmTC_89d0a.dir/src.cxx.o -c /home/aom/aom_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_89d0a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_89d0a.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_FLAG_SUPPORTED    CMakeFiles/cmTC_89d0a.dir/src.cxx.o  -o cmTC_89d0a -lm 
+make[1]: Leaving directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /home/aom/aom_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e3d30/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e3d30.dir/build.make CMakeFiles/cmTC_e3d30.dir/build
+make[1]: Entering directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e3d30.dir/src.c.o
+/usr/bin/cc   -DC_FLAG_SUPPORTED -fPIE   -Wstack-usage=100000 -o CMakeFiles/cmTC_e3d30.dir/src.c.o   -c /home/aom/aom_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_e3d30
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e3d30.dir/link.txt --verbose=1
+/usr/bin/cc  -DC_FLAG_SUPPORTED    CMakeFiles/cmTC_e3d30.dir/src.c.o  -o cmTC_e3d30 -lm 
+make[1]: Leaving directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /home/aom/aom_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e809c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e809c.dir/build.make CMakeFiles/cmTC_e809c.dir/build
+make[1]: Entering directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e809c.dir/src.cxx.o
+/usr/bin/c++    -DCXX_FLAG_SUPPORTED -fPIE   -Wstack-usage=360000 -o CMakeFiles/cmTC_e809c.dir/src.cxx.o -c /home/aom/aom_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e809c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e809c.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_FLAG_SUPPORTED    CMakeFiles/cmTC_e809c.dir/src.cxx.o  -o cmTC_e809c -lm 
+make[1]: Leaving directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /home/aom/aom_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d6965/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d6965.dir/build.make CMakeFiles/cmTC_d6965.dir/build
+make[1]: Entering directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d6965.dir/src.c.o
+/usr/bin/cc   -DC_FLAG_SUPPORTED -fPIE   -Wshadow -o CMakeFiles/cmTC_d6965.dir/src.c.o   -c /home/aom/aom_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_d6965
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6965.dir/link.txt --verbose=1
+/usr/bin/cc  -DC_FLAG_SUPPORTED    CMakeFiles/cmTC_d6965.dir/src.c.o  -o cmTC_d6965 -lm 
+make[1]: Leaving directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /home/aom/aom_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a44ba/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a44ba.dir/build.make CMakeFiles/cmTC_a44ba.dir/build
+make[1]: Entering directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a44ba.dir/src.c.o
+/usr/bin/cc   -DC_FLAG_SUPPORTED -fPIE   -Wundef -o CMakeFiles/cmTC_a44ba.dir/src.c.o   -c /home/aom/aom_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_a44ba
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a44ba.dir/link.txt --verbose=1
+/usr/bin/cc  -DC_FLAG_SUPPORTED    CMakeFiles/cmTC_a44ba.dir/src.c.o  -o cmTC_a44ba -lm 
+make[1]: Leaving directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /home/aom/aom_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_48ea6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_48ea6.dir/build.make CMakeFiles/cmTC_48ea6.dir/build
+make[1]: Entering directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_48ea6.dir/src.c.o
+/usr/bin/cc -D_FORTIFY_SOURCE=0  -DC_FLAG_SUPPORTED -fPIE   -U_FORTIFY_SOURCE -o CMakeFiles/cmTC_48ea6.dir/src.c.o   -c /home/aom/aom_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_48ea6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48ea6.dir/link.txt --verbose=1
+/usr/bin/cc  -DC_FLAG_SUPPORTED    CMakeFiles/cmTC_48ea6.dir/src.c.o  -o cmTC_48ea6 -lm 
+make[1]: Leaving directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /home/aom/aom_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_18190/fast"
+/usr/bin/make -f CMakeFiles/cmTC_18190.dir/build.make CMakeFiles/cmTC_18190.dir/build
+make[1]: Entering directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_18190.dir/src.cxx.o
+/usr/bin/c++  -D_FORTIFY_SOURCE=0  -DCXX_FLAG_SUPPORTED -fPIE   -U_FORTIFY_SOURCE -o CMakeFiles/cmTC_18190.dir/src.cxx.o -c /home/aom/aom_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_18190
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_18190.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_FLAG_SUPPORTED    CMakeFiles/cmTC_18190.dir/src.cxx.o  -o cmTC_18190 -lm 
+make[1]: Leaving directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /home/aom/aom_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_75d50/fast"
+/usr/bin/make -f CMakeFiles/cmTC_75d50.dir/build.make CMakeFiles/cmTC_75d50.dir/build
+make[1]: Entering directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_75d50.dir/src.c.o
+/usr/bin/cc -D_LARGEFILE_SOURCE  -DC_FLAG_SUPPORTED -fPIE   -o CMakeFiles/cmTC_75d50.dir/src.c.o   -c /home/aom/aom_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_75d50
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_75d50.dir/link.txt --verbose=1
+/usr/bin/cc  -DC_FLAG_SUPPORTED    CMakeFiles/cmTC_75d50.dir/src.c.o  -o cmTC_75d50 -lm 
+make[1]: Leaving directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /home/aom/aom_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3a666/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3a666.dir/build.make CMakeFiles/cmTC_3a666.dir/build
+make[1]: Entering directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3a666.dir/src.cxx.o
+/usr/bin/c++  -D_LARGEFILE_SOURCE  -DCXX_FLAG_SUPPORTED -fPIE   -o CMakeFiles/cmTC_3a666.dir/src.cxx.o -c /home/aom/aom_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_3a666
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3a666.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_FLAG_SUPPORTED    CMakeFiles/cmTC_3a666.dir/src.cxx.o  -o cmTC_3a666 -lm 
+make[1]: Leaving directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /home/aom/aom_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ce6e7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ce6e7.dir/build.make CMakeFiles/cmTC_ce6e7.dir/build
+make[1]: Entering directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ce6e7.dir/src.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64  -DC_FLAG_SUPPORTED -fPIE   -o CMakeFiles/cmTC_ce6e7.dir/src.c.o   -c /home/aom/aom_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_ce6e7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ce6e7.dir/link.txt --verbose=1
+/usr/bin/cc  -DC_FLAG_SUPPORTED    CMakeFiles/cmTC_ce6e7.dir/src.c.o  -o cmTC_ce6e7 -lm 
+make[1]: Leaving directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /home/aom/aom_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d1313/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d1313.dir/build.make CMakeFiles/cmTC_d1313.dir/build
+make[1]: Entering directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d1313.dir/src.cxx.o
+/usr/bin/c++  -D_FILE_OFFSET_BITS=64  -DCXX_FLAG_SUPPORTED -fPIE   -o CMakeFiles/cmTC_d1313.dir/src.cxx.o -c /home/aom/aom_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_d1313
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1313.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_FLAG_SUPPORTED    CMakeFiles/cmTC_d1313.dir/src.cxx.o  -o cmTC_d1313 -lm 
+make[1]: Leaving directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test HAVE_C_FLAG succeeded with the following output:
+Change Dir: /home/aom/aom_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_257f3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_257f3.dir/build.make CMakeFiles/cmTC_257f3.dir/build
+make[1]: Entering directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_257f3.dir/src.c.o
+/usr/bin/cc   -DHAVE_C_FLAG -fPIE   -msse2 -o CMakeFiles/cmTC_257f3.dir/src.c.o   -c /home/aom/aom_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_257f3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_257f3.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_C_FLAG    CMakeFiles/cmTC_257f3.dir/src.c.o  -o cmTC_257f3 -lm 
+make[1]: Leaving directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG succeeded with the following output:
+Change Dir: /home/aom/aom_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6641e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6641e.dir/build.make CMakeFiles/cmTC_6641e.dir/build
+make[1]: Entering directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6641e.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_CXX_FLAG -fPIE   -msse2 -o CMakeFiles/cmTC_6641e.dir/src.cxx.o -c /home/aom/aom_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_6641e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6641e.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAVE_CXX_FLAG    CMakeFiles/cmTC_6641e.dir/src.cxx.o  -o cmTC_6641e -lm 
+make[1]: Leaving directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test HAVE_C_FLAG succeeded with the following output:
+Change Dir: /home/aom/aom_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cbf30/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cbf30.dir/build.make CMakeFiles/cmTC_cbf30.dir/build
+make[1]: Entering directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cbf30.dir/src.c.o
+/usr/bin/cc   -DHAVE_C_FLAG -fPIE   -mssse3 -o CMakeFiles/cmTC_cbf30.dir/src.c.o   -c /home/aom/aom_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_cbf30
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cbf30.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_C_FLAG    CMakeFiles/cmTC_cbf30.dir/src.c.o  -o cmTC_cbf30 -lm 
+make[1]: Leaving directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG succeeded with the following output:
+Change Dir: /home/aom/aom_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a677f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a677f.dir/build.make CMakeFiles/cmTC_a677f.dir/build
+make[1]: Entering directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a677f.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_CXX_FLAG -fPIE   -mssse3 -o CMakeFiles/cmTC_a677f.dir/src.cxx.o -c /home/aom/aom_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_a677f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a677f.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAVE_CXX_FLAG    CMakeFiles/cmTC_a677f.dir/src.cxx.o  -o cmTC_a677f -lm 
+make[1]: Leaving directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test HAVE_C_FLAG succeeded with the following output:
+Change Dir: /home/aom/aom_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ac7de/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ac7de.dir/build.make CMakeFiles/cmTC_ac7de.dir/build
+make[1]: Entering directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ac7de.dir/src.c.o
+/usr/bin/cc   -DHAVE_C_FLAG -fPIE   -msse4.1 -o CMakeFiles/cmTC_ac7de.dir/src.c.o   -c /home/aom/aom_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_ac7de
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ac7de.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_C_FLAG    CMakeFiles/cmTC_ac7de.dir/src.c.o  -o cmTC_ac7de -lm 
+make[1]: Leaving directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG succeeded with the following output:
+Change Dir: /home/aom/aom_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_575a6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_575a6.dir/build.make CMakeFiles/cmTC_575a6.dir/build
+make[1]: Entering directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_575a6.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_CXX_FLAG -fPIE   -msse4.1 -o CMakeFiles/cmTC_575a6.dir/src.cxx.o -c /home/aom/aom_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_575a6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_575a6.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAVE_CXX_FLAG    CMakeFiles/cmTC_575a6.dir/src.cxx.o  -o cmTC_575a6 -lm 
+make[1]: Leaving directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test HAVE_C_FLAG succeeded with the following output:
+Change Dir: /home/aom/aom_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a58bf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a58bf.dir/build.make CMakeFiles/cmTC_a58bf.dir/build
+make[1]: Entering directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a58bf.dir/src.c.o
+/usr/bin/cc   -DHAVE_C_FLAG -fPIE   -msse4.2 -o CMakeFiles/cmTC_a58bf.dir/src.c.o   -c /home/aom/aom_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_a58bf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a58bf.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_C_FLAG    CMakeFiles/cmTC_a58bf.dir/src.c.o  -o cmTC_a58bf -lm 
+make[1]: Leaving directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG succeeded with the following output:
+Change Dir: /home/aom/aom_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_afcd5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_afcd5.dir/build.make CMakeFiles/cmTC_afcd5.dir/build
+make[1]: Entering directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_afcd5.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_CXX_FLAG -fPIE   -msse4.2 -o CMakeFiles/cmTC_afcd5.dir/src.cxx.o -c /home/aom/aom_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_afcd5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_afcd5.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAVE_CXX_FLAG    CMakeFiles/cmTC_afcd5.dir/src.cxx.o  -o cmTC_afcd5 -lm 
+make[1]: Leaving directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test HAVE_C_FLAG succeeded with the following output:
+Change Dir: /home/aom/aom_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_58c96/fast"
+/usr/bin/make -f CMakeFiles/cmTC_58c96.dir/build.make CMakeFiles/cmTC_58c96.dir/build
+make[1]: Entering directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_58c96.dir/src.c.o
+/usr/bin/cc   -DHAVE_C_FLAG -fPIE   -mavx2 -o CMakeFiles/cmTC_58c96.dir/src.c.o   -c /home/aom/aom_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_58c96
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_58c96.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_C_FLAG    CMakeFiles/cmTC_58c96.dir/src.c.o  -o cmTC_58c96 -lm 
+make[1]: Leaving directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG succeeded with the following output:
+Change Dir: /home/aom/aom_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c3fd7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c3fd7.dir/build.make CMakeFiles/cmTC_c3fd7.dir/build
+make[1]: Entering directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c3fd7.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_CXX_FLAG -fPIE   -mavx2 -o CMakeFiles/cmTC_c3fd7.dir/src.cxx.o -c /home/aom/aom_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c3fd7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3fd7.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAVE_CXX_FLAG    CMakeFiles/cmTC_c3fd7.dir/src.cxx.o  -o cmTC_c3fd7 -lm 
+make[1]: Leaving directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG succeeded with the following output:
+Change Dir: /home/aom/aom_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3f7b1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3f7b1.dir/build.make CMakeFiles/cmTC_3f7b1.dir/build
+make[1]: Entering directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3f7b1.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_CXX_FLAG -fPIE   -std=c++11 -o CMakeFiles/cmTC_3f7b1.dir/src.cxx.o -c /home/aom/aom_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_3f7b1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3f7b1.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAVE_CXX_FLAG    CMakeFiles/cmTC_3f7b1.dir/src.cxx.o  -o cmTC_3f7b1 -lm 
+make[1]: Leaving directory '/home/aom/aom_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
